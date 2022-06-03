@@ -1,0 +1,167 @@
+<html>
+  <head>
+    <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body background="actual_bg.webp">
+    <div class="container">
+      <h1>Googles Lens Vs MobileNet</h1>
+      <ol>
+        <div class="div1 col-xs-12">
+          <li class="col-sm-4 col-xs-12">
+            <b style="color: white">Pillow - </b
+            ><img
+              style="height: 250px"
+              src="pillow.avif"
+              class="img-responsive"
+            />
+          </li>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> -
+            <span>Pillow</span>
+          </h5>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>Mobilenet Model </b> -
+            <span>Pillow</span>
+          </h5>
+
+          <div class="div2" class="col-xs-12">
+            <h4>Result -</h4>
+            <hr />
+            <h4 style="color: darkred">Result is Draw</h4>
+          </div>
+        </div>
+        <br />
+
+        <div class="div1 col-xs-12">
+          <li class="col-sm-4 col-xs-12">
+            <b style="color: white">Shoes - </b
+            ><img
+              style="height: 250px"
+              src="canvasshoes.jpeg"
+              class="img-responsive"
+            />
+          </li>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> -
+            <span>Canvas Shoes</span>
+          </h5>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>Mobilenet Model </b> -
+            <span>Running Shoes</span>
+          </h5>
+
+          <div class="div2" class="col-xs-12">
+            <h4>Result -</h4>
+            <hr />
+            <h4 style="color: darkred">Google Lens is more accurate</h4>
+          </div>
+        </div>
+        <br />
+
+        <div class="div1 col-xs-12">
+          <li class="col-sm-4 col-xs-12">
+            <b style="color: white"> Face - </b
+            ><img
+              style="height: 250px"
+              src="face.webp"
+              class="img-responsive"
+            />
+          </li>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> -
+            <span> Face/Person </span>
+          </h5>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>Mobilenet Model </b> -
+            <span> Mask </span>
+          </h5>
+
+          <div class="div2" class="col-xs-12">
+            <h4>Result -</h4>
+            <hr />
+            <h4 style="color: darkred">Google Lens is more accurate</h4>
+          </div>
+        </div>
+        <br />
+
+        <div class="div1 col-xs-12">
+          <li class="col-sm-4 col-xs-12">
+            <b style="color: white"> Glasses - </b
+            ><img
+              style="height: 250px"
+              src="glasses.webp"
+              class="img-responsive"
+            />
+          </li>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> -
+            <span> Glasses </span>
+          </h5>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>Mobilenet Model </b> -
+            <span> Shades </span>
+          </h5>
+
+          <div class="div2" class="col-xs-12">
+            <h4>Result -</h4>
+            <hr />
+            <h4 style="color: darkred">Google Lens is more accurate</h4>
+          </div>
+        </div>
+        <br />
+
+        <div class="div1 col-xs-12">
+          <li class="col-sm-4 col-xs-12">
+            <b style="color: white"> Earphones - </b
+            ><img
+              style="height: 250px"
+              src="earphones.jpeg"
+              class="img-responsive"
+            />
+          </li>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>GOOGLE LENS</b> -
+            <span> Earphones </span>
+          </h5>
+          <h5 class="col-sm-4 col-xs-12">
+            Output on <b>Mobilenet Model </b> -
+            <span> Earphones </span>
+          </h5>
+
+          <div class="div2" class="col-xs-12">
+            <h4>Result -</h4>
+            <hr />
+            <h4 style="color: darkred">Result is Draw</h4>
+          </div>
+        </div>
+        <br />
+      </ol>
+      <br />
+      <br />
+      <h4 class="col-xs-12 result">
+        I have tested 5 images
+        <br />
+        <b>GOOGLE LENS</b> have predicted 3 of them more accurately. And
+        <b>MOBILENET</b> was less accurately<br />
+        So according to my case study <b>GOOGLE LENS</b> is more Accurate
+      </h4>
+    </div>
+    <br />
+    <br />
+    <div class="copy_right_footer">Developed by - Malika</div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
